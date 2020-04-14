@@ -16,7 +16,7 @@ function getWords() {
     var output10 = document.getElementById("input10").value;
     var output11 = document.getElementById("input11").value;
 
-    document.getElementById("story").innerHTML = "Once upon a time there was a boy named" + output1 + ". " + output1 + ", had the day off from their job at" + output2 + " Incorperated, so instead of" + output3 + "" + output4 +"at work,"  + output1 + " decided to " + output5+ "around town until he found a" + output6 + " " + output7 + " who they named" + output8 + ". " + output1 +" and " + output8 + ", "+ output9 + " around until they got too" +output10+ ". The day had been so" +output11+ " that "+output1+ "wished that this day would never end!" </p>;
+    document.getElementById("story").innerHTML = "Once upon a time there was a boy named" + output1 + ". " + output1 + ", had the day off from their job at" + output2 + " Incorperated, so instead of" + output3 + "" + output4 +"at work,"  + output1 + " decided to " + output5+ "around town until he found a" + output6 + " " + output7 + " who they named" + output8 + ". " + output1 +" and " + output8 + ", "+ output9 + " around until they got too" +output10+ ". The day had been so" +output11+ " that "+output1+ "wished that this day would never end!";
     document.getElementById("story").style.display = "center";
     document.getElementById("story").style.textalign = "block";
     }
