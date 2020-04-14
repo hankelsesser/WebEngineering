@@ -16,7 +16,7 @@ function getWords() {
     var output10 = document.getElementById("input10").value;
     var output11 = document.getElementById("input11").value;
 
-    document.getElementById("story").innerHTML = " Once upon a time there was a boy named <span id="output1">Name</span>. <span id="output1">Name</span> had the day off from their job at <span id="output2">Plural Noun</span> Incorperated, so instead of <span id="output3">Activity</span> <span id="output4">Plural Noun</span> at work, <span id="output1">Name</span>decided to <span id="output5">Verb</span> around town until he found a <span id="output6">Adjective</span> <span id="output7">Animal</span>, who they named <span id="output8">Name</span>. <span id="output1">Name</span> and <span id="output8">Name</span> <span id="output9">Verb</span> around until they got too <span id="output10">Adjective</span>. The day had been so <span id="output11">Adjective</span> that <span id="output1">Name</span> wished that this day would never end! </p>;
+    document.getElementById("story").innerHTML = " Once upon a time there was a boy named" + output1 + ". " + output1 + ", had the day off from their job at" + output2 + " Incorperated, so instead of" + output3 + "" + output4 +"at work,"  + output1 + " decided to " + output5+ "around town until he found a" + output6 + " " + output7 + " who they named" + output8 + ". " + output1 +" and " + output8 + ", "+ output9 + " around until they got too" +output10+ ". The day had been so" +output11+ " that "+output1+ "wished that this day would never end! </p>;
     document.getElementById("story").style.display = "center";
     document.getElementById("story").style.textalign = "block";
     }
