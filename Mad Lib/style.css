@@ -1,0 +1,82 @@
+#title {
+	/*border: solid;
+	border-style: double;
+	border-top-color: red;*/
+	background-color: black;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/*margin-left: 40%;
+	margin-right: 40%;*/
+	text-align: center;
+
+	margin: 1px;
+	font-size: 70px;
+	font-family: "Lucida Console", Courier, monospace;
+}
+h2 { 
+color: black;
+background-color: white;
+font-family: "Lucida Console", Courier, monospace;
+text-align: center;
+ }
+
+ #textleft {
+border: solid;
+background-color:  white;
+padding: 10px;
+display: inline-block;
+margin-left: 10%;
+width: 30%;
+
+ }
+
+  #textright {
+background-color:  white;
+padding: 10px;
+display: inline-block;
+margin-left: 15%;
+width: 30%;
+border: solid;
+ }
+
+ #table {
+ 	width: 39.5%;
+ 	background-color: rgb(200, 100, 100);
+ 	display: inline-block;
+ 	margin: auto;
+ }
+ #story {
+ 	width: 38.5%;
+ 	margin-left: 20.5%;
+ 	background-color: rgb(200, 100, 100);
+ 	display: inline-block;
+ 	font-family: "Lucida Console", Courier, monospace;
+ 	font-size: 21.5px;
+ 	padding-left: 0.5%;
+ 	padding-right: 0.5%;
+ 	color: white;
+ }
+
+
+
+ #row2 {
+ 	/*background-color: lightblue;*/
+ 	padding: 5px;
+ 	margin-left: 10%;
+ 	width: 78%;
+ }
+
+ td {
+ font-family: "Lucida Console", Courier, monospace;
+ color: white;
+ }
+ input {
+ font-family: "Lucida Console", Courier, monospace;
+ color: black;
+ font-size: 20px;
+ }
+
+body {
+	background-color: maroon;
+}
