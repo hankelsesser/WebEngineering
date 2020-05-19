@@ -35,4 +35,3 @@ function send() {
 	var message = document.getElementById("message").value;
 	sendMessage(message);
 }
-
