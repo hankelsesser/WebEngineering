@@ -12,7 +12,7 @@ function start(user) {
 function recieveMessage(message) {
   console.log(message);
 
- var receivedMessages = snapshot.val().message;
+var receivedMessages = snapshot.val().message;
 for (var i in receivedMessages) {
   var displayedMessage = document.createElement("p")
   displayedMessage.innerHTML = receivedMessages[i].content;
@@ -39,4 +39,12 @@ var text = snapshot.val().content;
 function send() {
   var message = document.getElementById("message").value;
   sendMessage(message);
+}
+
+function displayMessages() {
+ var receivedMessages = snapshot.val().message;
+for (var i in receivedMessages) {
+  var displayedMessage = document.createElement("p")
+  displayedMessage.innerHTML = receivedMessages[i].content;
+  receivedMessages.append(displayedMessage);
 }
