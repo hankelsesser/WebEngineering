@@ -36,7 +36,7 @@ function recieveMessage(message) {
     temp.innerHTML = data[i].content;
     ul.append(temp);
   }
-});
+
 
 }
 
