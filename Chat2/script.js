@@ -27,7 +27,17 @@ function recieveMessage(message) {
 		// var split = text.split();
 		// var testText = reverse.join();
 		// console.log(testText);
+	 
+	  
   });
+
+  for(var i in data) {
+    var temp = document.createElement("li");
+    temp.innerHTML = data[i].content;
+    ul.append(temp);
+  }
+});
+
 }
 
 //The sendMessage('text') function will send a message from you to the database.
