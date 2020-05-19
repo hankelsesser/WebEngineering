@@ -11,7 +11,7 @@ function start(user) {
 //The message information is passed to you in the variable 'message'
 function recieveMessage(message) {
 	console.log(message);
-	document.getElementById("display-messages").innerHTML += "<b>" + "   " + message.name + ":   " + message.content + "<br><br>";
+	document.getElementById("display-messages").innerHTML += "<b>" + message.name + ":   " + message.content + "<br><br>";
 
 	roomRef = database.ref('rooms/_/');
   roomRef.on('value', function(snapshot) {
