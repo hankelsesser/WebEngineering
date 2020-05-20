@@ -20,5 +20,5 @@ document.getElementById("display-messages").innerHTML += "<b>" + message.name + 
 //The sendMessage('text') function will send a message from you to the database.
 function send() {
 	var message = document.getElementById("message").value;
-	sendMessage(hi);
+	sendMessage(message);
 }
