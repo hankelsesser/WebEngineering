@@ -14,7 +14,7 @@ function recieveMessage(message) {
 	var text = message.text
 	var time = message.timestamp
 var fullmessage = "<b>" + message.name + ":   " + message.content + "<br><br>";
-var finalmessage = fullmessage.value.toUpperCase();;
+var finalmessage = fullmessage.toUpperCase();;
 document.getElementById("display-messages").innerHTML += finalmessage;
 }
 
