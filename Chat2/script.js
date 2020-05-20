@@ -10,19 +10,11 @@ function start(user) {
 //This function runs every time you recieve a message. It will run for every message already in the database.
 //The message information is passed to you in the variable 'message'
 function recieveMessage(message) {
-	console.log(message);
-	document.getElementById("display-messages").innerHTML += "<b>" + message.name + ":   " + message.content + "<br><br>";
 
-	roomRef = database.ref('rooms/_/');
-  roomRef.on('value', function(snapshot) {
-		var users = snapshot.val().messages;
-		console.log(users);
-
-		for (var i in users) {
-			var text1 = users[i].content;
-			console.log(text1);
-		}
-  });
+	var name = message.name
+	var text = message.text
+	var time = message.timestamp
+document.getElementById("display-messages").innerHTML += "<b>" + message.name + ":   " + message.content + " ("+message.timestamp+")"+"<br><br>";
 }
 
 //The sendMessage('text') function will send a message from you to the database.
