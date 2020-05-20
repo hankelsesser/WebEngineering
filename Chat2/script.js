@@ -10,11 +10,10 @@ function start(user) {
 //This function runs every time you recieve a message. It will run for every message already in the database.
 //The message information is passed to you in the variable 'message'
 function recieveMessage(message) {
-
 	var name = message.name
 	var text = message.text
 	var time = message.timestamp
-document.getElementById("display-messages").innerHTML += "<b>" + message.name + ":   " + message.content + " ("+message.timestamp+")"+"<br><br>";
+document.getElementById("display-messages").innerHTML += "<b>" + message.name + ":   " + message.content + "<br><br>";
 }
 
 //The sendMessage('text') function will send a message from you to the database.
