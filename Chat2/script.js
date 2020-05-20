@@ -12,7 +12,7 @@ function start(user) {
 function recieveMessage(message) {
 	var name = message.name
 	var text = message.text
-	var time = message.timestamp
+// 	var time = message.timestamp
 var fullmessage = "<b>" + message.name + ":   " + message.content + "<br><br>";
 document.getElementById("display-messages").innerHTML += fullmessage;
 }
