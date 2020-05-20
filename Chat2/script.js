@@ -14,7 +14,7 @@ function recieveMessage(message) {
 	var text = message.text
 	var time = message.timestamp
 var fullmessage = "<b>" + message.name + ":   " + message.content + "<br><br>";
-document.getElementById("display-messages").innerHTML += toUpperCase(fullmessage);
+document.getElementById("display-messages").innerHTML += fullmessage.toUpperCase();;
 }
 
 //The sendMessage('text') function will send a message from you to the database.
