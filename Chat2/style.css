@@ -9,5 +9,7 @@
 }
 
 #displaywindow {
+ height: 50%;
+ width: 50%;
  overflow: auto;
 }
