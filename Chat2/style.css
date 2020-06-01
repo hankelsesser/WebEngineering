@@ -2,7 +2,7 @@
   border:solid;
   padding-left: 50px;
   padding-right: 50px;
-  color: green;
+  color: white;
   background-color: black;
   font-size: 15px;
   font-family: "Courier New", Courier, monospace;
@@ -15,6 +15,7 @@
 }
 
 body {
- background-color: black;
+ background-color: #4e4e4e;
 }
+
 
