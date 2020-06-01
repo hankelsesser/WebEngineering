@@ -9,9 +9,8 @@
 }
 
 #displaywindow {
- overflow: auto;
+ overflow: scroll;
  height: 500px;
  width: 1200px;
- overflow: auto;
  margin-left: 1%;
 }
